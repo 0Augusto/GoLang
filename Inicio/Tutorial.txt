@@ -1,1 +1,21 @@
 Link Tutorial: https://go.dev/doc/tutorial/getting-started
+
+go mod tidy --> verificará o arquivo go.mod, removerá as dependências não utilizadas e atualizará o arquivo go.sum para refletir as alterações.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
