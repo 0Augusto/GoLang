@@ -79,7 +79,7 @@ func AlgoritmoGenetico(tamanhoPopulacao, numGeracoes int) {
 
 		// Mutação: altera aleatoriamente alguns genes na nova população
 		for _, individuo := range novaPopulacao.Individuos {
-			if rand.Float32() < 0.25 { // Probabilidade de mutação de 25%
+			if rand.Float32() < 0.01 { // Probabilidade de mutação de 25% é alto
 				Mutação(individuo)
 			}
 		}
